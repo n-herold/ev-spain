@@ -4,7 +4,7 @@ import duckdb
 import pandas as pd
 
 # Name der SQL-Datei im Ordner sql/, die ausgeführt werden soll
-SQL_FILE = "03_growth.sql"
+SQL_FILE = "04_anomalies.sql"
 
 project_dir = Path(__file__).resolve().parent.parent
 parquet_glob = (project_dir / "data" / "processed" / "*.parquet").as_posix()

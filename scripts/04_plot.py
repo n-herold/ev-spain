@@ -13,9 +13,21 @@ con.execute(
     f"CREATE VIEW registrations AS SELECT * FROM read_parquet('{parquet_glob}')"
 )
 
-# 2) Growth-Abfrage ausführen
-sql = (project_dir / "sql" / "03_growth.sql").read_text(encoding="utf-8").strip().rstrip(";")
-df = con.execute(sql).df()
+
+def run_sql_file(name):
+    """Liest eine SQL-Datei aus sql/ und gibt das Ergebnis als Tabelle zurück."""
+    text = (project_dir / "sql" / name).read_text(encoding="utf-8").strip().rstrip(";")
+    return con.execute(text).df()
+
+
+# 2) Beide Abfragen ausführen und über year und month zusammenführen
+growth = run_sql_file("03_growth.sql")
+anom = run_sql_file("04_anomalies.sql")
+
+df = growth.merge(
+    anom[["year", "month", "share_pct", "base_pct", "diff_pp", "z_score"]],
+    on=["year", "month"],
+)
 
 # 3) Datum und Kumulierungen berechnen
 df["date"] = pd.to_datetime(dict(year=df["year"], month=df["month"], day=1))
@@ -33,12 +45,18 @@ df["share_ytd_pct"] = df["bev_ytd"] * 100 / df["total_ytd"]
 # YTD-Wachstum: Jahr-bis-heute gegen denselben Zeitraum im Vorjahr
 df["growth_ytd_pct"] = (df["bev_ytd"] / df["bev_ytd"].shift(12) - 1) * 100
 
+# Auffällige Monate (Schwelle hier ändern)
+Z_SCHWELLE = 2
+df["auffaellig"] = df["z_score"].abs() >= Z_SCHWELLE
+
 stichtag = pd.Timestamp("2026-02-28")  # Hormus-Schließung
+
+fig_dir = project_dir / "figures"
+fig_dir.mkdir(exist_ok=True)
 
 # 4) Abbildung 1: links einzeln, rechts kumuliert
 fig, axes = plt.subplots(3, 2, sharex=True, figsize=(14, 10))
 
-# Linke Spalte: Einzelwerte pro Monat
 axes[0, 0].plot(df["date"], df["bev"], marker="o")
 axes[0, 0].set_ylabel("BEV pro Monat")
 axes[0, 0].set_title("Einzelwerte pro Monat")
@@ -50,7 +68,6 @@ axes[2, 0].plot(df["date"], df["growth_yoy_pct"], marker="o", color="orange")
 axes[2, 0].axhline(0, color="grey", linewidth=0.8)
 axes[2, 0].set_ylabel("Wachstum zum Vorjahresmonat (%)")
 
-# Rechte Spalte: kumuliert
 axes[0, 1].plot(df["date"], df["bev_cum"], color="purple")
 axes[0, 1].set_ylabel("BEV kumuliert (seit Jan 2023)")
 axes[0, 1].set_title("Kumuliert")
@@ -70,9 +87,6 @@ for ax in axes.flat:
 
 fig.suptitle("BEV-Neuzulassungen in Spanien, Jan 2023 bis Sep 2026")
 plt.tight_layout()
-
-fig_dir = project_dir / "figures"
-fig_dir.mkdir(exist_ok=True)
 plt.savefig(fig_dir / "bev_monthly.png", dpi=150)
 
 # 5) Abbildung 2: kumuliert pro Jahr, absolut und als Anteil
@@ -94,5 +108,41 @@ for ax in (axa, axb):
 
 plt.tight_layout()
 plt.savefig(fig_dir / "bev_cumulative_by_year.png", dpi=150)
+
+# 6) Abbildung 3: Anomalien (oben Anteil gegen Basis, unten z-Score)
+fig3, (ax1, ax2) = plt.subplots(
+    2, 1, sharex=True, figsize=(11, 8), gridspec_kw={"height_ratios": [2, 1]}
+)
+
+ax1.plot(df["date"], df["share_pct"], marker="o", label="Anteil BEV (%)")
+ax1.plot(df["date"], df["base_pct"], linestyle="--", color="grey", label="Basis (Nachbarmonate)")
+ax1.set_ylabel("Anteil BEV an Neuzulassungen (%)")
+ax1.legend()
+
+hot = df[df["auffaellig"]]
+ax1.scatter(hot["date"], hot["share_pct"], color="red", zorder=3)
+for _, row in hot.iterrows():
+    ax1.annotate(
+        row["date"].strftime("%b %Y"),
+        (row["date"], row["share_pct"]),
+        textcoords="offset points",
+        xytext=(0, 8),
+        ha="center",
+        fontsize=8,
+    )
+
+colors = ["red" if flag else "steelblue" for flag in df["auffaellig"]]
+ax2.bar(df["date"], df["z_score"], width=20, color=colors)
+ax2.axhline(0, color="black", linewidth=0.8)
+ax2.axhline(Z_SCHWELLE, color="red", linestyle="--", linewidth=0.8)
+ax2.axhline(-Z_SCHWELLE, color="red", linestyle="--", linewidth=0.8)
+ax2.set_ylabel("z-Score")
+
+for ax in (ax1, ax2):
+    ax.grid(alpha=0.3)
+
+ax1.set_title(f"BEV-Anteil und Abweichung vom lokalen Normalwert (|z| ab {Z_SCHWELLE} markiert)")
+plt.tight_layout()
+plt.savefig(fig_dir / "bev_anomalies.png", dpi=150)
 
 plt.show()
