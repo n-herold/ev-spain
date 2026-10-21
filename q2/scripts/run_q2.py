@@ -35,3 +35,4 @@ for statement in sql_text.split(";"):
     print(statement.strip())
     print()
     print(con.execute(statement).df().to_string(index=False))
+    
