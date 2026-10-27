@@ -8,15 +8,9 @@ SQL_FILE = "01_quarterly.sql"
 
 # This file lives in q2/scripts/, so the project root is three levels up
 project_dir = Path(__file__).resolve().parent.parent.parent
-parquet_glob = (project_dir / "data" / "processed" / "*.parquet").as_posix()
 csv_path = project_dir / "q2" / "data" / "eafo_charging_points.csv"
 
 con = duckdb.connect()
-
-# All parquet files as one table called "registrations"
-con.execute(
-    f"CREATE VIEW registrations AS SELECT * FROM read_parquet('{parquet_glob}')"
-)
 
 # EAFO charging points (AC and DC per quarter) as a table called "charging_points"
 # Read with pandas and register it in DuckDB, so DuckDB does not have to guess the CSV format

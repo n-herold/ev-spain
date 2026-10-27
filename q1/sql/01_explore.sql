@@ -1,7 +1,7 @@
--- Wie viele Zeilen hat die Tabelle?
+-- How many rows does the table have?
 SELECT COUNT(*) AS rows_total FROM registrations;
 
--- Neue Pkw pro Monat
+-- New passenger cars per month
 SELECT year, month, COUNT(*) AS cars
 FROM registrations
 GROUP BY year, month

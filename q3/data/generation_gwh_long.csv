@@ -1,0 +1,721 @@
+year,month,technology,gwh
+2023,1,Hidráulica,3905.423653
+2023,1,Nuclear,5112.055936
+2023,1,Carbón,307.51128700000004
+2023,1,Fuel + Gas,0.0
+2023,1,Motores diésel,191.07273
+2023,1,Turbina de gas,64.726749
+2023,1,Turbina de vapor,121.140182
+2023,1,Ciclo combinado,2760.422158
+2023,1,Hidroeólica,1.662009
+2023,1,Eólica,7459.158715
+2023,1,Solar fotovoltaica,1745.04403
+2023,1,Solar térmica,119.507759
+2023,1,Otras renovables,291.755633
+2023,1,Cogeneración,1211.589162
+2023,1,Residuos no renovables,103.404028
+2023,1,Residuos renovables,68.128838
+2023,2,Hidráulica,2502.504081
+2023,2,Nuclear,4620.4848360000005
+2023,2,Carbón,427.308519
+2023,2,Fuel + Gas,0.0
+2023,2,Motores diésel,199.377883
+2023,2,Turbina de gas,59.831749
+2023,2,Turbina de vapor,120.94086
+2023,2,Ciclo combinado,4415.525622
+2023,2,Hidroeólica,0.8505
+2023,2,Eólica,4677.308164
+2023,2,Solar fotovoltaica,2153.5383220000003
+2023,2,Solar térmica,178.785415
+2023,2,Otras renovables,357.377778
+2023,2,Cogeneración,1720.244764
+2023,2,Residuos no renovables,115.3905935
+2023,2,Residuos renovables,71.9624925
+2023,3,Hidráulica,2087.877683
+2023,3,Nuclear,5128.757821
+2023,3,Carbón,434.964056
+2023,3,Fuel + Gas,0.0
+2023,3,Motores diésel,181.821637
+2023,3,Turbina de gas,51.890474000000005
+2023,3,Turbina de vapor,106.966088
+2023,3,Ciclo combinado,3161.4929
+2023,3,Hidroeólica,1.590417
+2023,3,Eólica,6695.328481
+2023,3,Solar fotovoltaica,3097.2629300000003
+2023,3,Solar térmica,409.939524
+2023,3,Otras renovables,308.275367
+2023,3,Cogeneración,1744.145104
+2023,3,Residuos no renovables,120.4378255
+2023,3,Residuos renovables,72.2501965
+2023,4,Hidráulica,1569.712352
+2023,4,Nuclear,4595.971703
+2023,4,Carbón,260.205058
+2023,4,Fuel + Gas,0.0
+2023,4,Motores diésel,188.164895
+2023,4,Turbina de gas,51.071706
+2023,4,Turbina de vapor,92.299324
+2023,4,Ciclo combinado,2926.176341
+2023,4,Hidroeólica,1.585069
+2023,4,Eólica,4902.310822
+2023,4,Solar fotovoltaica,3784.527392
+2023,4,Solar térmica,625.72451
+2023,4,Otras renovables,273.108339
+2023,4,Cogeneración,1574.628279
+2023,4,Residuos no renovables,91.245808
+2023,4,Residuos renovables,57.926929
+2023,5,Hidráulica,1431.434069
+2023,5,Nuclear,3769.113058
+2023,5,Carbón,248.06826500000005
+2023,5,Fuel + Gas,0.0
+2023,5,Motores diésel,198.230045
+2023,5,Turbina de gas,59.231485
+2023,5,Turbina de vapor,88.152232
+2023,5,Ciclo combinado,3378.356921
+2023,5,Hidroeólica,2.097691
+2023,5,Eólica,5465.412902
+2023,5,Solar fotovoltaica,3872.795667
+2023,5,Solar térmica,500.293922
+2023,5,Otras renovables,338.17609000000004
+2023,5,Cogeneración,1695.502618
+2023,5,Residuos no renovables,71.357616
+2023,5,Residuos renovables,45.423986
+2023,6,Hidráulica,1936.110732
+2023,6,Nuclear,4051.97898
+2023,6,Carbón,310.539807
+2023,6,Fuel + Gas,0.0
+2023,6,Motores diésel,214.994878
+2023,6,Turbina de gas,78.031811
+2023,6,Turbina de vapor,88.47583999999999
+2023,6,Ciclo combinado,4723.342039
+2023,6,Hidroeólica,0.871282
+2023,6,Eólica,3083.405509
+2023,6,Solar fotovoltaica,3868.505526
+2023,6,Solar térmica,541.9273000000001
+2023,6,Otras renovables,321.636134
+2023,6,Cogeneración,1730.362519
+2023,6,Residuos no renovables,122.925563
+2023,6,Residuos renovables,81.083838
+2023,7,Hidráulica,1330.640724
+2023,7,Nuclear,5156.675526999999
+2023,7,Carbón,348.122077
+2023,7,Fuel + Gas,1e-06
+2023,7,Motores diésel,246.891638
+2023,7,Turbina de gas,83.072881
+2023,7,Turbina de vapor,103.897174
+2023,7,Ciclo combinado,5004.56098
+2023,7,Hidroeólica,2.779582
+2023,7,Eólica,3861.433897
+2023,7,Solar fotovoltaica,4558.848021
+2023,7,Solar térmica,768.645378
+2023,7,Otras renovables,320.200517
+2023,7,Cogeneración,1475.941052
+2023,7,Residuos no renovables,126.997647
+2023,7,Residuos renovables,83.52141499999999
+2023,8,Hidráulica,1028.789935
+2023,8,Nuclear,5042.863845
+2023,8,Carbón,427.464249
+2023,8,Fuel + Gas,0.0
+2023,8,Motores diésel,264.650444
+2023,8,Turbina de gas,70.829518
+2023,8,Turbina de vapor,108.254056
+2023,8,Ciclo combinado,5058.950201000001
+2023,8,Hidroeólica,2.712111
+2023,8,Eólica,4275.9065630000005
+2023,8,Solar fotovoltaica,4458.922662
+2023,8,Solar térmica,719.885809
+2023,8,Otras renovables,340.36257900000004
+2023,8,Cogeneración,1289.603821
+2023,8,Residuos no renovables,119.5057655
+2023,8,Residuos renovables,77.31577650000001
+2023,9,Hidráulica,973.097598
+2023,9,Nuclear,4589.367703
+2023,9,Carbón,411.872482
+2023,9,Fuel + Gas,0.0
+2023,9,Motores diésel,223.241472
+2023,9,Turbina de gas,68.23577
+2023,9,Turbina de vapor,108.323154
+2023,9,Ciclo combinado,4925.186986
+2023,9,Hidroeólica,1.340426
+2023,9,Eólica,3598.878379
+2023,9,Solar fotovoltaica,3370.323793
+2023,9,Solar térmica,401.017822
+2023,9,Otras renovables,285.205148
+2023,9,Cogeneración,1445.4675020000002
+2023,9,Residuos no renovables,116.416225
+2023,9,Residuos renovables,73.649178
+2023,10,Hidráulica,1484.878345
+2023,10,Nuclear,3784.160488
+2023,10,Carbón,382.30217
+2023,10,Fuel + Gas,0.0
+2023,10,Motores diésel,232.544642
+2023,10,Turbina de gas,75.582605
+2023,10,Turbina de vapor,122.815673
+2023,10,Ciclo combinado,4142.681222
+2023,10,Hidroeólica,0.5211
+2023,10,Eólica,5805.935104
+2023,10,Solar fotovoltaica,2644.073386
+2023,10,Solar térmica,226.738199
+2023,10,Otras renovables,263.62906
+2023,10,Cogeneración,1269.144302
+2023,10,Residuos no renovables,120.3336525
+2023,10,Residuos renovables,76.5250595
+2023,11,Hidráulica,3482.765812
+2023,11,Nuclear,3783.657011
+2023,11,Carbón,228.074839
+2023,11,Fuel + Gas,0.0
+2023,11,Motores diésel,207.92915
+2023,11,Turbina de gas,49.101646
+2023,11,Turbina de vapor,94.087746
+2023,11,Ciclo combinado,2934.387571
+2023,11,Hidroeólica,1.136906
+2023,11,Eólica,7006.844029
+2023,11,Solar fotovoltaica,2018.830361
+2023,11,Solar térmica,111.28437
+2023,11,Otras renovables,239.883989
+2023,11,Cogeneración,997.958936
+2023,11,Residuos no renovables,101.041004
+2023,11,Residuos renovables,63.522691
+2023,12,Hidráulica,4031.524114
+2023,12,Nuclear,5012.340675
+2023,12,Carbón,219.974371
+2023,12,Fuel + Gas,0.0
+2023,12,Motores diésel,211.802176
+2023,12,Turbina de gas,49.641129
+2023,12,Turbina de vapor,99.542538
+2023,12,Ciclo combinado,3251.150578
+2023,12,Hidroeólica,0.717105
+2023,12,Eólica,5840.458428
+2023,12,Solar fotovoltaica,1881.127609
+2023,12,Solar térmica,92.059718
+2023,12,Otras renovables,255.526377
+2023,12,Cogeneración,1175.097044
+2023,12,Residuos no renovables,114.811285
+2023,12,Residuos renovables,74.72552800000001
+2024,1,Hidráulica,3971.92958
+2024,1,Nuclear,5179.885926
+2024,1,Carbón,273.958354
+2024,1,Fuel + Gas,0.0
+2024,1,Motores diésel,207.31826500000005
+2024,1,Turbina de gas,53.787186
+2024,1,Turbina de vapor,121.758736
+2024,1,Ciclo combinado,3407.469656
+2024,1,Hidroeólica,0.7392880000000001
+2024,1,Eólica,5719.850105
+2024,1,Solar fotovoltaica,1932.458775
+2024,1,Solar térmica,94.242967
+2024,1,Otras renovables,283.523709
+2024,1,Cogeneración,1700.417558
+2024,1,Residuos no renovables,110.571293
+2024,1,Residuos renovables,69.243126
+2024,2,Hidráulica,3042.261296
+2024,2,Nuclear,4529.278081
+2024,2,Carbón,211.248554
+2024,2,Fuel + Gas,0.0
+2024,2,Motores diésel,185.234713
+2024,2,Turbina de gas,47.659587
+2024,2,Turbina de vapor,103.045916
+2024,2,Ciclo combinado,2132.977183
+2024,2,Hidroeólica,1.449866
+2024,2,Eólica,6961.871287999999
+2024,2,Solar fotovoltaica,2608.859548
+2024,2,Solar térmica,176.41685800000002
+2024,2,Otras renovables,258.47649
+2024,2,Cogeneración,1373.2724509999998
+2024,2,Residuos no renovables,90.1549215
+2024,2,Residuos renovables,59.0358865
+2024,3,Hidráulica,4737.199897
+2024,3,Nuclear,3507.782451
+2024,3,Carbón,213.900071
+2024,3,Fuel + Gas,1e-06
+2024,3,Motores diésel,195.153151
+2024,3,Turbina de gas,48.339308
+2024,3,Turbina de vapor,118.985126
+2024,3,Ciclo combinado,2223.992027
+2024,3,Hidroeólica,1.626099
+2024,3,Eólica,6145.061076999999
+2024,3,Solar fotovoltaica,3073.350894
+2024,3,Solar térmica,151.740955
+2024,3,Otras renovables,310.256304
+2024,3,Cogeneración,1174.392052
+2024,3,Residuos no renovables,76.646694
+2024,3,Residuos renovables,53.78333
+2024,4,Hidráulica,4064.803917
+2024,4,Nuclear,3525.863763
+2024,4,Carbón,219.580598
+2024,4,Fuel + Gas,0.0
+2024,4,Motores diésel,196.540632
+2024,4,Turbina de gas,45.119655
+2024,4,Turbina de vapor,101.478588
+2024,4,Ciclo combinado,2058.062519
+2024,4,Hidroeólica,1.322405
+2024,4,Eólica,4705.769263
+2024,4,Solar fotovoltaica,4029.534604
+2024,4,Solar térmica,443.319442
+2024,4,Otras renovables,304.402031
+2024,4,Cogeneración,907.87423
+2024,4,Residuos no renovables,71.3429545
+2024,4,Residuos renovables,50.2810825
+2024,5,Hidráulica,2965.693608
+2024,5,Nuclear,3543.073292
+2024,5,Carbón,239.504028
+2024,5,Fuel + Gas,0.0
+2024,5,Motores diésel,190.405353
+2024,5,Turbina de gas,43.226631000000005
+2024,5,Turbina de vapor,109.309982
+2024,5,Ciclo combinado,1999.032779
+2024,5,Hidroeólica,2.25665
+2024,5,Eólica,4276.890286999999
+2024,5,Solar fotovoltaica,5128.795849
+2024,5,Solar térmica,599.701686
+2024,5,Otras renovables,311.43421500000005
+2024,5,Cogeneración,1329.878844
+2024,5,Residuos no renovables,80.4322145
+2024,5,Residuos renovables,49.4024205
+2024,6,Hidráulica,2438.332892
+2024,6,Nuclear,4365.764814
+2024,6,Carbón,220.705159
+2024,6,Fuel + Gas,1e-06
+2024,6,Motores diésel,200.91379
+2024,6,Turbina de gas,70.809821
+2024,6,Turbina de vapor,82.237212
+2024,6,Ciclo combinado,2119.905284
+2024,6,Hidroeólica,2.641655
+2024,6,Eólica,4439.03346
+2024,6,Solar fotovoltaica,4778.572019
+2024,6,Solar térmica,494.55802
+2024,6,Otras renovables,330.374598
+2024,6,Cogeneración,1444.50389
+2024,6,Residuos no renovables,109.4359205
+2024,6,Residuos renovables,70.47963349999999
+2024,7,Hidráulica,2170.4963700000003
+2024,7,Nuclear,5078.745102
+2024,7,Carbón,213.591815
+2024,7,Fuel + Gas,0.0
+2024,7,Motores diésel,250.924238
+2024,7,Turbina de gas,69.296604
+2024,7,Turbina de vapor,108.818316
+2024,7,Ciclo combinado,3253.1270750000003
+2024,7,Hidroeólica,3.51131
+2024,7,Eólica,4230.016563
+2024,7,Solar fotovoltaica,5826.0988210000005
+2024,7,Solar térmica,674.743076
+2024,7,Otras renovables,353.163033
+2024,7,Cogeneración,1479.435682
+2024,7,Residuos no renovables,137.39535949999998
+2024,7,Residuos renovables,78.6970015
+2024,8,Hidráulica,1809.749346
+2024,8,Nuclear,5127.963695
+2024,8,Carbón,224.373748
+2024,8,Fuel + Gas,1e-06
+2024,8,Motores diésel,258.178674
+2024,8,Turbina de gas,73.86705
+2024,8,Turbina de vapor,104.478976
+2024,8,Ciclo combinado,3509.125212
+2024,8,Hidroeólica,3.975784
+2024,8,Eólica,3961.607372
+2024,8,Solar fotovoltaica,5387.933578
+2024,8,Solar térmica,671.160866
+2024,8,Otras renovables,319.72670400000004
+2024,8,Cogeneración,1405.227798
+2024,8,Residuos no renovables,156.730928
+2024,8,Residuos renovables,78.25168099999999
+2024,9,Hidráulica,1653.4349069999998
+2024,9,Nuclear,5016.585271
+2024,9,Carbón,300.028865
+2024,9,Fuel + Gas,1e-06
+2024,9,Motores diésel,231.037799
+2024,9,Turbina de gas,61.393924
+2024,9,Turbina de vapor,76.89913800000001
+2024,9,Ciclo combinado,2890.60628
+2024,9,Hidroeólica,2.271474
+2024,9,Eólica,4645.649452
+2024,9,Solar fotovoltaica,4206.172521
+2024,9,Solar térmica,459.969576
+2024,9,Otras renovables,294.96986400000003
+2024,9,Cogeneración,1314.27711
+2024,9,Residuos no renovables,133.600457
+2024,9,Residuos renovables,74.356198
+2024,10,Hidráulica,2897.6188620000003
+2024,10,Nuclear,4636.156556
+2024,10,Carbón,310.385936
+2024,10,Fuel + Gas,0.0
+2024,10,Motores diésel,220.527292
+2024,10,Turbina de gas,57.304506
+2024,10,Turbina de vapor,89.30001200000001
+2024,10,Ciclo combinado,2853.385139
+2024,10,Hidroeólica,1.869634
+2024,10,Eólica,5691.461048
+2024,10,Solar fotovoltaica,2800.66502
+2024,10,Solar térmica,153.79677900000002
+2024,10,Otras renovables,276.494969
+2024,10,Cogeneración,1231.959823
+2024,10,Residuos no renovables,130.601277
+2024,10,Residuos renovables,65.96096700000001
+2024,11,Hidráulica,2730.90853
+2024,11,Nuclear,3631.614601
+2024,11,Carbón,288.076169
+2024,11,Fuel + Gas,0.0
+2024,11,Motores diésel,202.578822
+2024,11,Turbina de gas,51.931067000000006
+2024,11,Turbina de vapor,91.813716
+2024,11,Ciclo combinado,4125.549116
+2024,11,Hidroeólica,0.324081
+2024,11,Eólica,4842.551139
+2024,11,Solar fotovoltaica,2332.860232
+2024,11,Solar térmica,97.190022
+2024,11,Otras renovables,306.50430200000005
+2024,11,Cogeneración,1546.620084
+2024,11,Residuos no renovables,124.9343535
+2024,11,Residuos renovables,74.71137350000001
+2024,12,Hidráulica,2467.390178
+2024,12,Nuclear,4248.089385
+2024,12,Carbón,315.086517
+2024,12,Fuel + Gas,0.0
+2024,12,Motores diésel,199.58956
+2024,12,Turbina de gas,45.886447
+2024,12,Turbina de vapor,71.23332
+2024,12,Ciclo combinado,5181.750152
+2024,12,Hidroeólica,1.363745
+2024,12,Eólica,5292.46028
+2024,12,Solar fotovoltaica,2493.688323
+2024,12,Solar térmica,110.530322
+2024,12,Otras renovables,342.437969
+2024,12,Cogeneración,1510.1044450000002
+2024,12,Residuos no renovables,123.9620345
+2024,12,Residuos renovables,80.6987635
+2025,1,Hidráulica,3130.5703160000003
+2025,1,Nuclear,5226.016435
+2025,1,Carbón,302.101786
+2025,1,Fuel + Gas,0.0
+2025,1,Motores diésel,207.535755
+2025,1,Turbina de gas,60.87843
+2025,1,Turbina de vapor,82.86755199999999
+2025,1,Ciclo combinado,3423.715351
+2025,1,Hidroeólica,1.249555
+2025,1,Eólica,7586.613274
+2025,1,Solar fotovoltaica,2316.510459
+2025,1,Solar térmica,88.88802199999999
+2025,1,Otras renovables,340.615387
+2025,1,Cogeneración,1433.149438
+2025,1,Residuos no renovables,102.3796015
+2025,1,Residuos renovables,66.6721875
+2025,2,Hidráulica,4134.375248
+2025,2,Nuclear,4737.450693
+2025,2,Carbón,339.059408
+2025,2,Fuel + Gas,0.0
+2025,2,Motores diésel,184.93897
+2025,2,Turbina de gas,44.610382
+2025,2,Turbina de vapor,111.338406
+2025,2,Ciclo combinado,3039.572003
+2025,2,Hidroeólica,1.142978
+2025,2,Eólica,3747.503182
+2025,2,Solar fotovoltaica,3205.348211
+2025,2,Solar térmica,174.043705
+2025,2,Otras renovables,329.78069
+2025,2,Cogeneración,1378.261153
+2025,2,Residuos no renovables,97.813083
+2025,2,Residuos renovables,63.364435
+2025,3,Hidráulica,4152.914643
+2025,3,Nuclear,4878.049862
+2025,3,Carbón,220.14855
+2025,3,Fuel + Gas,0.0
+2025,3,Motores diésel,214.312035
+2025,3,Turbina de gas,52.807763
+2025,3,Turbina de vapor,126.580506
+2025,3,Ciclo combinado,2488.402069
+2025,3,Hidroeólica,1.241904
+2025,3,Eólica,6745.38347
+2025,3,Solar fotovoltaica,3105.930881
+2025,3,Solar térmica,187.268125
+2025,3,Otras renovables,287.871202
+2025,3,Cogeneración,1158.334485
+2025,3,Residuos no renovables,86.309518
+2025,3,Residuos renovables,62.090727
+2025,4,Hidráulica,3947.6813
+2025,4,Nuclear,2951.810664
+2025,4,Carbón,170.12535
+2025,4,Fuel + Gas,0.0
+2025,4,Motores diésel,190.321238
+2025,4,Turbina de gas,40.047467
+2025,4,Turbina de vapor,98.063034
+2025,4,Ciclo combinado,2540.997465
+2025,4,Hidroeólica,1.763238
+2025,4,Eólica,4359.056713000001
+2025,4,Solar fotovoltaica,4082.720013
+2025,4,Solar térmica,311.21542900000003
+2025,4,Otras renovables,297.270855
+2025,4,Cogeneración,1140.497932
+2025,4,Residuos no renovables,69.1127685
+2025,4,Residuos renovables,50.7386975
+2025,5,Hidráulica,3580.785766
+2025,5,Nuclear,3062.480187
+2025,5,Carbón,143.702755
+2025,5,Fuel + Gas,0.0
+2025,5,Motores diésel,188.425563
+2025,5,Turbina de gas,41.000646
+2025,5,Turbina de vapor,81.823026
+2025,5,Ciclo combinado,3265.983647
+2025,5,Hidroeólica,1.701465
+2025,5,Eólica,3474.2805630000003
+2025,5,Solar fotovoltaica,4924.934102
+2025,5,Solar térmica,493.822514
+2025,5,Otras renovables,327.135756
+2025,5,Cogeneración,1180.395655
+2025,5,Residuos no renovables,52.279885
+2025,5,Residuos renovables,40.514506
+2025,6,Hidráulica,2409.309902
+2025,6,Nuclear,4096.380254000001
+2025,6,Carbón,154.141783
+2025,6,Fuel + Gas,0.0
+2025,6,Motores diésel,206.139221
+2025,6,Turbina de gas,60.532604
+2025,6,Turbina de vapor,84.304408
+2025,6,Ciclo combinado,4539.672832
+2025,6,Hidroeólica,2.9528670000000004
+2025,6,Eólica,3220.770763
+2025,6,Solar fotovoltaica,6039.559659
+2025,6,Solar térmica,486.226615
+2025,6,Otras renovables,317.013337
+2025,6,Cogeneración,1377.735591
+2025,6,Residuos no renovables,73.52417999999999
+2025,6,Residuos renovables,38.560535
+2025,7,Hidráulica,1903.303892
+2025,7,Nuclear,5062.982664
+2025,7,Carbón,105.938849
+2025,7,Fuel + Gas,0.0
+2025,7,Motores diésel,243.235725
+2025,7,Turbina de gas,75.609286
+2025,7,Turbina de vapor,206.015472
+2025,7,Ciclo combinado,4229.5780460000005
+2025,7,Hidroeólica,3.291497
+2025,7,Eólica,4604.642074
+2025,7,Solar fotovoltaica,6296.1416500000005
+2025,7,Solar térmica,660.8565130000001
+2025,7,Otras renovables,352.327969
+2025,7,Cogeneración,1311.206637
+2025,7,Residuos no renovables,97.861365
+2025,7,Residuos renovables,66.447702
+2025,8,Hidráulica,1795.390274
+2025,8,Nuclear,5094.839576
+2025,8,Carbón,0.00011
+2025,8,Fuel + Gas,0.0
+2025,8,Motores diésel,263.8586
+2025,8,Turbina de gas,73.21603200000001
+2025,8,Turbina de vapor,264.476467
+2025,8,Ciclo combinado,4197.450379
+2025,8,Hidroeólica,2.748143
+2025,8,Eólica,3754.57893
+2025,8,Solar fotovoltaica,5839.951037
+2025,8,Solar térmica,488.1029380000001
+2025,8,Otras renovables,338.318445
+2025,8,Cogeneración,1237.961312
+2025,8,Residuos no renovables,105.5889895
+2025,8,Residuos renovables,71.4704325
+2025,9,Hidráulica,1608.430325
+2025,9,Nuclear,4538.216097
+2025,9,Carbón,7.238918
+2025,9,Fuel + Gas,1e-06
+2025,9,Motores diésel,229.220398
+2025,9,Turbina de gas,61.003978
+2025,9,Turbina de vapor,284.406258
+2025,9,Ciclo combinado,3734.011674
+2025,9,Hidroeólica,2.590817
+2025,9,Eólica,4113.084898
+2025,9,Solar fotovoltaica,5042.549602
+2025,9,Solar térmica,396.082162
+2025,9,Otras renovables,331.419464
+2025,9,Cogeneración,1272.463984
+2025,9,Residuos no renovables,83.8611965
+2025,9,Residuos renovables,59.4856345
+2025,10,Hidráulica,1758.831993
+2025,10,Nuclear,3695.799766
+2025,10,Carbón,20.979159
+2025,10,Fuel + Gas,0.0
+2025,10,Motores diésel,217.170856
+2025,10,Turbina de gas,72.72942900000001
+2025,10,Turbina de vapor,334.22025799999994
+2025,10,Ciclo combinado,5195.98245
+2025,10,Hidroeólica,1.167157
+2025,10,Eólica,4569.462439
+2025,10,Solar fotovoltaica,4043.762257
+2025,10,Solar térmica,237.034073
+2025,10,Otras renovables,325.268837
+2025,10,Cogeneración,1377.916939
+2025,10,Residuos no renovables,93.8219055
+2025,10,Residuos renovables,58.1522415
+2025,11,Hidráulica,2029.225354
+2025,11,Nuclear,3682.677054
+2025,11,Carbón,5.388781
+2025,11,Fuel + Gas,0.0
+2025,11,Motores diésel,194.642212
+2025,11,Turbina de gas,53.840804
+2025,11,Turbina de vapor,326.798258
+2025,11,Ciclo combinado,4166.323762
+2025,11,Hidroeólica,0.949789
+2025,11,Eólica,7154.470749
+2025,11,Solar fotovoltaica,3120.149599
+2025,11,Solar térmica,110.075363
+2025,11,Otras renovables,317.223118
+2025,11,Cogeneración,1230.8887590000002
+2025,11,Residuos no renovables,98.7088275
+2025,11,Residuos renovables,63.9800575
+2025,12,Hidráulica,3248.765908
+2025,12,Nuclear,4820.199866999999
+2025,12,Carbón,46.750101
+2025,12,Fuel + Gas,0.0
+2025,12,Motores diésel,206.079744
+2025,12,Turbina de gas,50.856782
+2025,12,Turbina de vapor,361.382164
+2025,12,Ciclo combinado,4911.835728
+2025,12,Hidroeólica,1.389267
+2025,12,Eólica,5426.492383999999
+2025,12,Solar fotovoltaica,2255.276742
+2025,12,Solar térmica,48.384063000000005
+2025,12,Otras renovables,344.282125
+2025,12,Cogeneración,1413.639249
+2025,12,Residuos no renovables,103.2995025
+2025,12,Residuos renovables,70.0538825
+2026,1,Hidráulica,3210.58066
+2026,1,Nuclear,5238.88338
+2026,1,Carbón,20.1885
+2026,1,Fuel + Gas,0.0
+2026,1,Motores diésel,210.98764000000003
+2026,1,Turbina de gas,56.96075
+2026,1,Turbina de vapor,304.24276000000003
+2026,1,Ciclo combinado,4115.64121
+2026,1,Hidroeólica,1.23581
+2026,1,Eólica,8295.22516
+2026,1,Solar fotovoltaica,2299.33948
+2026,1,Solar térmica,35.18567
+2026,1,Otras renovables,320.71769
+2026,1,Cogeneración,1259.42195
+2026,1,Residuos no renovables,90.701345
+2026,1,Residuos renovables,68.035735
+2026,2,Hidráulica,4434.46771
+2026,2,Nuclear,4031.60578
+2026,2,Carbón,0.0
+2026,2,Fuel + Gas,0.0
+2026,2,Motores diésel,180.44185
+2026,2,Turbina de gas,47.3198
+2026,2,Turbina de vapor,302.14416
+2026,2,Ciclo combinado,2760.55019
+2026,2,Hidroeólica,1.2533
+2026,2,Eólica,6370.0019
+2026,2,Solar fotovoltaica,2584.9399700000004
+2026,2,Solar térmica,132.87733
+2026,2,Otras renovables,221.2665
+2026,2,Cogeneración,604.1235
+2026,2,Residuos no renovables,58.920695
+2026,2,Residuos renovables,42.124795
+2026,3,Hidráulica,4321.86168
+2026,3,Nuclear,3921.09699
+2026,3,Carbón,13.30595
+2026,3,Fuel + Gas,0.0
+2026,3,Motores diésel,190.74097
+2026,3,Turbina de gas,53.91529
+2026,3,Turbina de vapor,291.18986
+2026,3,Ciclo combinado,3330.67677
+2026,3,Hidroeólica,2.03708
+2026,3,Eólica,5259.14203
+2026,3,Solar fotovoltaica,4293.35254
+2026,3,Solar térmica,321.98497
+2026,3,Otras renovables,325.2071
+2026,3,Cogeneración,625.57138
+2026,3,Residuos no renovables,68.67808500000001
+2026,3,Residuos renovables,49.209935
+2026,4,Hidráulica,2464.66372
+2026,4,Nuclear,3891.82999
+2026,4,Carbón,0.0
+2026,4,Fuel + Gas,0.0
+2026,4,Motores diésel,192.29283
+2026,4,Turbina de gas,57.31854
+2026,4,Turbina de vapor,312.77521
+2026,4,Ciclo combinado,2820.85357
+2026,4,Hidroeólica,1.46277
+2026,4,Eólica,3874.25466
+2026,4,Solar fotovoltaica,5055.24971
+2026,4,Solar térmica,367.1272100000001
+2026,4,Otras renovables,286.54172
+2026,4,Cogeneración,919.32911
+2026,4,Residuos no renovables,81.303355
+2026,4,Residuos renovables,56.989535
+2026,5,Hidráulica,2629.36299
+2026,5,Nuclear,3758.566
+2026,5,Carbón,81.25748
+2026,5,Fuel + Gas,0.0
+2026,5,Motores diésel,193.46298
+2026,5,Turbina de gas,57.88183
+2026,5,Turbina de vapor,369.01144
+2026,5,Ciclo combinado,3100.56408
+2026,5,Hidroeólica,1.65928
+2026,5,Eólica,3385.0323900000003
+2026,5,Solar fotovoltaica,6229.36442
+2026,5,Solar térmica,514.99356
+2026,5,Otras renovables,316.27147
+2026,5,Cogeneración,1121.54237
+2026,5,Residuos no renovables,73.302345
+2026,5,Residuos renovables,49.108395
+2026,6,Hidráulica,2110.04794
+2026,6,Nuclear,4457.56388
+2026,6,Carbón,13.07465
+2026,6,Fuel + Gas,0.0
+2026,6,Motores diésel,205.71197
+2026,6,Turbina de gas,66.43599
+2026,6,Turbina de vapor,299.67224
+2026,6,Ciclo combinado,3797.79749
+2026,6,Hidroeólica,2.75559
+2026,6,Eólica,3888.86362
+2026,6,Solar fotovoltaica,7143.23896
+2026,6,Solar térmica,622.2300600000001
+2026,6,Otras renovables,338.34335
+2026,6,Cogeneración,1134.92989
+2026,6,Residuos no renovables,86.2937
+2026,6,Residuos renovables,64.8514
+2026,7,Hidráulica,2012.44102
+2026,7,Nuclear,4966.6541
+2026,7,Carbón,44.45087
+2026,7,Fuel + Gas,0.0
+2026,7,Motores diésel,256.86607
+2026,7,Turbina de gas,111.17831
+2026,7,Turbina de vapor,340.62625
+2026,7,Ciclo combinado,5480.79781
+2026,7,Hidroeólica,2.52698
+2026,7,Eólica,3958.29776
+2026,7,Solar fotovoltaica,7730.04532
+2026,7,Solar térmica,601.0690500000001
+2026,7,Otras renovables,348.92563
+2026,7,Cogeneración,1162.30523
+2026,7,Residuos no renovables,76.77109
+2026,7,Residuos renovables,52.793980000000005
+2026,8,Hidráulica,1535.8828500000002
+2026,8,Nuclear,4772.1151500000005
+2026,8,Carbón,14.63461
+2026,8,Fuel + Gas,0.0
+2026,8,Motores diésel,280.04119000000003
+2026,8,Turbina de gas,105.86459
+2026,8,Turbina de vapor,359.27029
+2026,8,Ciclo combinado,5356.24795
+2026,8,Hidroeólica,3.18284
+2026,8,Eólica,3513.32311
+2026,8,Solar fotovoltaica,7363.436
+2026,8,Solar térmica,585.7021500000001
+2026,8,Otras renovables,347.02907
+2026,8,Cogeneración,990.67933
+2026,8,Residuos no renovables,74.83477
+2026,8,Residuos renovables,54.14903
+2026,9,Hidráulica,1617.27223
+2026,9,Nuclear,4904.92554
+2026,9,Carbón,60.24177
+2026,9,Fuel + Gas,0.0
+2026,9,Motores diésel,253.25705
+2026,9,Turbina de gas,101.96638
+2026,9,Turbina de vapor,373.83692
+2026,9,Ciclo combinado,5016.80867
+2026,9,Hidroeólica,1.93958
+2026,9,Eólica,3464.51074
+2026,9,Solar fotovoltaica,6291.87602
+2026,9,Solar térmica,466.84427
+2026,9,Otras renovables,329.25966
+2026,9,Cogeneración,1047.85984
+2026,9,Residuos no renovables,73.0215
+2026,9,Residuos renovables,49.20195
